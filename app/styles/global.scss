@@ -10,10 +10,6 @@ body {
   cursor: default;
 }
 
-main {
-  min-height: 600px;
-}
-
 .container {
   @media (min-width: 1200px) {
     width: 1000px;

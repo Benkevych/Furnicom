@@ -2,15 +2,15 @@
   &__description {
     width: 100%;
     background-color: #f6f5f5;
-  }
-  &__descriptionText {
-    color: #34417c;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 5px 0;
+    &__text {
+      color: #34417c;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 5px 0;
+    }
   }
   &__title {
     padding-top: 15px;
@@ -115,6 +115,10 @@
         margin-top: 133px;
       }
       .dropdown-link {
+        width: 315px;
+        max-width: 315px;
+        overflow: hidden;
+        text-overflow: ellipsis;
         float: none;
         display: block;
         font-size: 14px;
@@ -138,6 +142,7 @@
       align-items: flex-end;
     }
     a {
+      margin-top: 1px;
       padding: 30px 8px 7px;
       color: black;
       font-size: 16px;
