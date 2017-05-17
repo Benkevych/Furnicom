@@ -21,6 +21,20 @@ a {
   &:hover {
     text-decoration: none;
   }
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.section-title {
+  color: black;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  span {
+    font-weight: 700;
+  }
 }
 
 .clearfix {

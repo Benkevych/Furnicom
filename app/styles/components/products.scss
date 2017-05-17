@@ -1,0 +1,37 @@
+.component-products {
+  &__item {
+    padding: 5px 0;
+    margin: 11px 0;
+    border-bottom: 3px solid #34417c;
+    &__thumbnail {
+      width: 300px;
+      height: 115px;
+      overflow: hidden;
+      margin: 0;
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    &__text {
+      color: #34417c;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+    &__label {
+      width: 15px;
+      height: 23px;
+      background-image: url("../../images/item-title-arrow.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-bottom: 3px;
+    }
+  }
+}
