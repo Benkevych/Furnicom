@@ -24,6 +24,9 @@ a {
   &:focus {
     text-decoration: none;
   }
+  &:visited {
+    color: initial;
+  }
 }
 
 .section-title {
