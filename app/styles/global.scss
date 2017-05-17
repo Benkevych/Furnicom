@@ -38,6 +38,35 @@ a {
   }
 }
 
+.see-more-link {
+  height: 36px;
+  display: block;
+  background-image: url("../images/see-more-link-bg.png");
+  background-position: center;
+  background-repeat: repeat-x;
+  &__btn {
+    margin-left: 35px;
+    display: inline-flex;
+    flex-direction: row;
+    background-color: white;
+  }
+  &__text {
+    color: #34417c;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  &__label {
+    height: 36px;
+    width: 15px;
+    margin: 0 10px;
+    background-image: url("../../images/item-title-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
 .clearfix {
   zoom: 1;
   &:after,
