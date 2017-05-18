@@ -59,6 +59,9 @@ a {
     line-height: 36px;
     font-weight: 700;
     margin-left: 10px;
+    &_no-label {
+      margin-right: 10px;
+    }
   }
   &__label {
     height: 36px;
