@@ -49,6 +49,9 @@
       align-items: center;
       justify-content: space-between;
       margin-bottom: 10px;
+      &_margin-top {
+        margin-top: 20px;
+      }
       &_item1 {
         background-color: #34417c;
       }
