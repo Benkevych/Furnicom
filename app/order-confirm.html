@@ -110,20 +110,20 @@
               <div class="order-confirm__desc">
                 Ваше имя и фамилия
               </div>
-              <input type="text" class="order-confirm__input order-confirm__input_name">
+              <input name="name" type="text" class="order-confirm__input order-confirm__input_name">
             </div>
             <div class="order-confirm__contacts">
               <div>
                 <div class="order-confirm__desc">
                   Контактный телефон*
                 </div>
-                <input type="text" class="order-confirm__input order-confirm__input_contacts">
+                <input name="phone" type="number" class="order-confirm__input order-confirm__input_contacts" required>
               </div>
               <div>
                 <div class="order-confirm__desc">
                   Ваш e-mail*
                 </div>
-                <input type="text" class="order-confirm__input order-confirm__input_contacts">
+                <input name="email" type="email" class="order-confirm__input order-confirm__input_contacts" required>
               </div>
             </div>
             <div class="order-confirm__alert">* для подтверждения заявки необходимо корретно заполнить формы, иначе наш менеджер не сможет связаться с вами.</div>
@@ -197,6 +197,7 @@
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
   <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 

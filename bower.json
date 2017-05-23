@@ -2,7 +2,8 @@
   "name": "furnicom",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.5"
+    "bootstrap-sass": "~3.3.5",
+    "jquery-validation": "^1.16.0"
   },
   "overrides": {
     "bootstrap-sass": {
