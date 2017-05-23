@@ -22,3 +22,15 @@ $(".cart__items__item__count").focusout(function () {
   $(this).attr("disabled", "true");
   $(this).siblings(".cart__items__item__change-btn").removeClass("cart__items__item__change-btn_active");
 });
+
+
+$("#confirmOrder").submit(function () {
+  event.preventDefault();
+  $(".order-confirm__success").fadeIn();
+  $("#body").addClass("blur");
+});
+
+$(".order-confirm__success__back-btn").click(function () {
+  $("#body").removeClass("blur");
+  $(".order-confirm__success").fadeOut();
+});
