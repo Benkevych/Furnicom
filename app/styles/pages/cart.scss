@@ -1,0 +1,110 @@
+.cart {
+  &__items {
+    &__item {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 3px;
+      &__change-btn {
+        width: 50%;
+        height: 100%;
+        color: black;
+        cursor: pointer;
+        font-size: 9px;
+        line-height: 36px;
+        font-weight: 700;
+        background-color: #cfe2af;
+        text-transform: uppercase;
+        text-align: center;
+        &_active {
+          background-color: #adcc51
+        }
+      }
+      &__count {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 35px;
+        background-color: #eeeeee;
+        border: none;
+        &:focus {
+          outline: none;
+          background-color: white;
+          box-shadow: inset 0 5px 15px #dadada;
+        }
+      }
+      &__col {
+        background-color: #eeeeee;
+        height: 36px;
+        margin-right: 3px;
+        padding: 0 10px;
+        max-height: 36px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        line-height: 36px;
+        color: black;
+        &_header {
+          background-color: #bfbfbf;
+          text-align: center;
+          padding: 0 !important;
+        }
+        &_summ {
+          width: 747px;
+          max-width: 747px;
+        }
+        &_checkout {
+          background-color: #acb3d1;
+          font-weight: 700;
+          padding-left: 15px;
+        }
+        &_number {
+          width: 70px;
+          max-width: 70px;
+          padding-left: 15px;
+        }
+        &_name {
+          width: 390px;
+          max-width: 390px;
+        }
+        &_weight {
+          width: 105px;
+          max-width: 105px;
+        }
+        &_units {
+          width: 80px;
+          max-width: 80px;
+        }
+        &_length {
+          width: 80px;
+          max-width: 80px;
+        }
+        &_price {
+          width: 120px;
+          max-width: 120px;
+        }
+        &_buy {
+          width: 120px;
+          max-width: 120px;
+          padding: 0;
+          margin-right: 0;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+        }
+        &_checkout-count {
+          width: 121px;
+          max-width: 121px;
+          margin-right: 0;
+        }
+        &_checkout-price {
+          width: 121px;
+          max-width: 121px;
+        }
+      }
+    }
+  }
+}
