@@ -21,5 +21,4 @@ $(".cart__items__item__count").focusout(function () {
   $(this).removeAttr("enabled");
   $(this).attr("disabled", "true");
   $(this).siblings(".cart__items__item__change-btn").removeClass("cart__items__item__change-btn_active");
-
 });
