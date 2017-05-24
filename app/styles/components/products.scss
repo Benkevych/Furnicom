@@ -1,132 +1,132 @@
 .component-products {
+  &__item {
+    padding: 5px 0;
+    margin: 11px 0;
+    border-bottom: 3px solid #34417c;
+    &__thumbnail {
+      width: 100%;
+      height: 115px;
+      overflow: hidden;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    &__text {
+      color: #34417c;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+    &__label {
+      width: 15px;
+      height: 23px;
+      background-image: url("../images/item-title-arrow.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-bottom: 3px;
+    }
+  }
+  &__services {
+    margin-top: 25px;
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
     &__item {
-        padding: 5px 0;
-        margin: 11px 0;
-        border-bottom: 3px solid #34417c;
-        &__thumbnail {
-            width: 100%;
-            height: 115px;
-            overflow: hidden;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            img {
-                width: 100%;
-            }
-        }
-        &__title {
-            margin-top: 5px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: flex-end;
-        }
-        &__text {
-            color: #34417c;
-            font-size: 18px;
-            line-height: 20px;
-            font-weight: 400;
-        }
-        &__label {
-            width: 15px;
-            height: 23px;
-            background-image: url("../images/item-title-arrow.png");
-            background-repeat: no-repeat;
-            background-position: center center;
-            margin-bottom: 3px;
-        }
-    }
-    &__services {
-        margin-top: 25px;
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-        &__item {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 10px;
-            &_margin-top {
-                margin-top: 20px;
-            }
-            &_item1 {
-                background-color: #34417c;
-            }
-            &_item2 {
-                background-color: #4d598d
-            }
-            &_item3 {
-                background-color: #6d78a7;
-            }
-            &_item4 {
-                background-color: #8b95bd;
-            }
-            &_item5 {
-                background-color: #9ca5cd;
-            }
-        }
-        &__text {
-            font-size: 15px;
-            line-height: 15px;
-            color: white;
-            padding: 5px 10px;
-            max-height: 45px;
-        }
-        &__label {
-            width: 51px;
-            height: 45px;
-            margin-right: 10px;
-            background-repeat: no-repeat;
-            background-position: center center;
-            &_item1 {
-                background-image: url("../images/service1-label.png");
-                background-position: bottom -15px center;
-            }
-            &_item2 {
-                background-image: url("../images/service2-label.png");
-                background-position: bottom -15px center;
-            }
-            &_item3 {
-                background-image: url("../images/service3-label.png");
-            }
-            &_item4 {
-                background-image: url("../images/service4-label.png");
-            }
-            &_item5 {
-                background-image: url("../images/service5-label.png");
-            }
-        }
-    }
-    &__why-we {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      &_margin-top {
         margin-top: 20px;
-        p {
-            color: black;
-            font-size: 14px;
-            line-height: 21px;
-            font-weight: 400;
-            margin-bottom: 20px;
-            word-break: break-all;
-            &_blue {
-                color: #34417c;
-                font-weight: 700;
-            }
-        }
-        h3 {
-            color: #34417c;
-            font-size: 18px;
-            line-height: 36px;
-            font-weight: 700;
-            margin-left: 10px;
-            &:before {
-                height: 36px;
-                display: block;
-                background-image: url(../images/see-more-link-bg.png);
-                background-position: center;
-                background-repeat: repeat-x;
-            }
-        }
+      }
+      &_item1 {
+        background-color: #34417c;
+      }
+      &_item2 {
+        background-color: #4d598d
+      }
+      &_item3 {
+        background-color: #6d78a7;
+      }
+      &_item4 {
+        background-color: #8b95bd;
+      }
+      &_item5 {
+        background-color: #9ca5cd;
+      }
     }
+    &__text {
+      font-size: 15px;
+      line-height: 15px;
+      color: white;
+      padding: 5px 10px;
+      max-height: 45px;
+      max-width: 243px;
+    }
+    &__label {
+      width: 51px;
+      height: 45px;
+      margin-right: 10px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      &_item1 {
+        background-image: url("../images/service1-label.png");
+        background-position: bottom -15px center;
+      }
+      &_item2 {
+        background-image: url("../images/service2-label.png");
+        background-position: bottom -15px center;
+      }
+      &_item3 {
+        background-image: url("../images/service3-label.png");
+      }
+      &_item4 {
+        background-image: url("../images/service4-label.png");
+      }
+      &_item5 {
+        background-image: url("../images/service5-label.png");
+      }
+    }
+  }
+  &__why-we {
+    margin-top: 20px;
+    p {
+      color: black;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      &_blue {
+        color: #34417c;
+        font-weight: 700;
+      }
+    }
+    h3 {
+      color: #34417c;
+      font-size: 18px;
+      line-height: 36px;
+      font-weight: 700;
+      margin-left: 10px;
+      &:before {
+        height: 36px;
+        display: block;
+        background-image: url(../images/see-more-link-bg.png);
+        background-position: center;
+        background-repeat: repeat-x;
+      }
+    }
+  }
 }
