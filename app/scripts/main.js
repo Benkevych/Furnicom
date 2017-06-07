@@ -34,3 +34,14 @@ $('.order-confirm__success__back-btn').click(function () {
   $('#body').removeClass('blur');
   $('.order-confirm__success').fadeOut();
 });
+
+
+$('.header__mobile-menu-btn').click(function () {
+  if (!$(this).children('.header__mobile-menu-btn-label').hasClass('header__mobile-menu-btn-label_active')) {
+    $(this).children('.header__mobile-menu-btn-label').addClass('header__mobile-menu-btn-label_active');
+    $('#menu-main').addClass('header__mobile-menu-active');
+  } else {
+    $(this).children('.header__mobile-menu-btn-label').removeClass('header__mobile-menu-btn-label_active');
+    $('#menu-main').removeClass('header__mobile-menu-active');
+  }
+});
