@@ -1,53 +1,51 @@
 .component-promotion {
-    margin-top: 20px;
-    &__item {
-        width: 100%;
-        height: 295px;
-        background-position: center center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 35px 50px;
-        &_item1 {
-            background-image: url("../images/prom1-bg.png");
-        }
-    }
-    &__header {
-        text-transform: uppercase;
-        color: #34417c;
-        font-size: 45px;
-        line-height: 48px;
-        font-weight: 700;
-        max-height: 48px;
-        max-width: 450px;
-        overflow: hidden;
-    }
-    &__title {
-        margin: 25px 0;
-        color: black;
-        font-size: 45px;
-        line-height: 48px;
-        font-weight: 700;
-        max-width: 500px;
-        max-height: 96px;
-    }
-    &__link {
-        color: white !important;
-        font-size: 12px;
-        padding: 5px 30px;
-        text-transform: uppercase;
-        background-color: #34417c;
-    }
-    #quote-carousel .carousel-indicators {
-        right: 50%;
-        top: auto;
-        bottom: -35px;
-    }
-    #quote-carousel .carousel-indicators li {
-        background: white;
-        border: 2px solid #4d598d;
-    }
-    #quote-carousel .carousel-indicators .active {
-        background: #4d598d;
-        border: 2px solid #4d598d;
-    }
+  margin-top: 20px;
+  &__item {
+    width: 100%;
+    height: 295px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 35px 50px;
+  }
+  &__header {
+    text-transform: uppercase;
+    color: #34417c;
+    font-size: 45px;
+    line-height: 48px;
+    font-weight: 700;
+    max-height: 48px;
+    max-width: 450px;
+    overflow: hidden;
+  }
+  &__title {
+    margin: 25px 0;
+    color: black;
+    font-size: 45px;
+    line-height: 48px;
+    font-weight: 700;
+    height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+  }
+  &__link {
+    color: white !important;
+    font-size: 12px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    background-color: #34417c;
+  }
+  #quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -35px;
+  }
+  #quote-carousel .carousel-indicators li {
+    background: white;
+    border: 2px solid #4d598d;
+  }
+  #quote-carousel .carousel-indicators .active {
+    background: #4d598d;
+    border: 2px solid #4d598d;
+  }
 }

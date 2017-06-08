@@ -1,94 +1,100 @@
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 body {
-    font-family: "NotoSans";
-    cursor: default;
+  font-family: "NotoSans";
+  cursor: default;
 }
 
 .container {
-    @media (min-width: 1200px) {
-        width: 1000px;
-    }
+  @media (min-width: 1200px) {
+    width: 1000px;
+  }
 }
 
 a {
+  text-decoration: none;
+  color: initial;
+  &:hover {
     text-decoration: none;
-    &:hover {
-        text-decoration: none;
-    }
-    &:focus {
-        text-decoration: none;
-    }
-    &:visited {
-        color: initial;
-    }
+    color: initial;
+  }
+  &:focus {
+    text-decoration: none;
+    color: initial;
+  }
+  &:visited {
+    color: initial;
+  }
+  &:active {
+    color: initial;
+  }
 }
 
 .section-title {
-    margin-top: 40px;
-    color: black;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 400;
-    text-transform: uppercase;
-    span {
-        font-weight: 700;
-    }
+  margin-top: 40px;
+  color: black;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  span {
+    font-weight: 700;
+  }
 }
 
 .see-more-link {
+  height: 36px;
+  display: block;
+  background-image: url("../images/see-more-link-bg.png");
+  background-position: center;
+  background-repeat: repeat-x;
+  &__btn {
+    margin-left: 35px;
+    display: inline-flex;
+    flex-direction: row;
+    background-color: white;
+  }
+  &__text {
+    color: #34417c;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-left: 10px;
+    &_no-label {
+      margin-right: 10px;
+    }
+  }
+  &__label {
     height: 36px;
-    display: block;
-    background-image: url("../images/see-more-link-bg.png");
-    background-position: center;
-    background-repeat: repeat-x;
-    &__btn {
-        margin-left: 35px;
-        display: inline-flex;
-        flex-direction: row;
-        background-color: white;
-    }
-    &__text {
-        color: #34417c;
-        font-size: 18px;
-        line-height: 36px;
-        font-weight: 700;
-        margin-left: 10px;
-        &_no-label {
-            margin-right: 10px;
-        }
-    }
-    &__label {
-        height: 36px;
-        width: 15px;
-        margin: 0 10px;
-        background-image: url("../images/item-title-arrow.png");
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
+    width: 15px;
+    margin: 0 10px;
+    background-image: url("../images/item-title-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 
 .clearfix {
-    zoom: 1;
-    &:after,
-    &:before {
-        content: "";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
+  zoom: 1;
+  &:after,
+  &:before {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0;
-    /* <-- Apparently some margin are still there even though it's hidden */
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
 }

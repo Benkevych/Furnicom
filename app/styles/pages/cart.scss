@@ -34,6 +34,24 @@
       flex-direction: row;
       width: 100%;
       margin-top: 3px;
+      &:hover .cart__items__item__delete-btn {
+        display: table-cell;
+      }
+      &__delete-btn {
+        margin-left: 3px;
+        width: 30px;
+        height: 36px;
+        background-image: url("../images/delete-item-btn.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        display: none;
+        a {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+        }
+      }
       &__change-btn {
         width: 50%;
         height: 100%;
@@ -82,8 +100,8 @@
           padding: 0 !important;
         }
         &_summ {
-          width: 747px;
-          max-width: 747px;
+          width: 723px;
+          max-width: 723px;
         }
         &_checkout {
           background-color: #acb3d1;
@@ -96,8 +114,8 @@
           padding-left: 15px;
         }
         &_name {
-          width: 390px;
-          max-width: 390px;
+          width: 376px;
+          max-width: 376px;
         }
         &_weight {
           width: 105px;

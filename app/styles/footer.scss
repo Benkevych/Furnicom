@@ -139,6 +139,12 @@
     height: 24px;
     width: 100%;
     opacity: 0.3;
+    img {
+      margin-left: 20px;
+      @media (min-width: 240px) and (max-width: 1000px) {
+        margin-left: 0;
+      }
+    }
     @media (min-width: 240px) and (max-width: 1000px) {
       overflow: hidden;
       display: flex;
